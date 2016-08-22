@@ -54,6 +54,8 @@ int.question('Ok, welcome, what would you like to search in wikipedia? ', functi
 	  					Page Title: About ${ans}
 
 	  					${parseJson(body)}`);
+	  				int.close();
+
 			});
 			}
 			else{
@@ -66,11 +68,13 @@ int.question('Ok, welcome, what would you like to search in wikipedia? ', functi
 	  					Page Title: About ${ans}
 
 	  					${parseJson(body)}`);
+	  				int.close();
 			});
 			}
 			});
 	}
 	else{
-		console.log("Input is invalid");	
+		console.log("Input is invalid");
+		int.close();
 	}
 });
