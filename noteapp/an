@@ -1,3 +1,0 @@
-var querystring = require('querystring');
-t = encodeURIComponent("Ade is a mad dog");
-console.log(t)
