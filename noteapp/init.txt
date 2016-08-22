@@ -1,1 +1,3 @@
 this is an init file
+Please make sure you have the request module. Its been removed to save data
+Please use ctrl + c to cancel input (This is @todo in later version);
